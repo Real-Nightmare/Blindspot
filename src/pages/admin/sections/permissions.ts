@@ -1,0 +1,16 @@
+export const ADMIN_PERMISSIONS_CLIENT = [
+  "applications",
+  "users",
+  "admins",
+  "verification",
+  "reports",
+  "rules",
+  "groups",
+  "moderation",
+  "files",
+  "audit",
+  "privacy",
+  "security",
+  "settings",
+  "integrations",
+] as const;
